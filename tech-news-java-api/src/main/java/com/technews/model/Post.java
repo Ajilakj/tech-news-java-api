@@ -51,6 +51,10 @@ public class Post implements Serializable {
         this.comments = comments;
     }
 
+    public Post() {
+
+    }
+
     public Integer getId() {
         return id;
     }
